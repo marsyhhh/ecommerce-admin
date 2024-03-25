@@ -1,9 +1,7 @@
-import { SignOutButton } from "@clerk/nextjs"
-
-export default function Home() {
+export default async function Dashboard() {
   return (
     <div>
-      <SignOutButton />
+      <h1>Dashboard</h1>
     </div>
   )
 }
