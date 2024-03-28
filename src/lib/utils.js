@@ -1,14 +1,6 @@
-export const navLink = [
-  {
-    id: "/",
-    title: "Dashboard",
-  },
-  {
-    id: "billboards",
-    title: "Billboards",
-  },
-  {
-    id: "products",
-    title: "Products",
-  },
-]
+import { clsx } from "clsx"
+import { twMerge } from "tailwind-merge"
+
+export function cn(...inputs) {
+  return twMerge(clsx(inputs))
+}

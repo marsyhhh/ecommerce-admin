@@ -1,8 +1,10 @@
+import Header from "@/components/Header"
+
 const billboardPage = () => {
   return (
-    <div>
-      <h1>billboardPage</h1>
-    </div>
+    <>
+      <Header title="Billboards" count="0" />
+    </>
   )
 }
 
